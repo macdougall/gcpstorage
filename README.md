@@ -8,6 +8,9 @@ It will retieve that data locally, then persist it to Google Cloud Storage.
 It's meant to be used as a migration or import script that's run periodically.
 
 Requirements:
+* GCP Account with a Service Account credentials
+* GCloud Python Library
+* SheetSu Account (to access Google Sheets)
+* Temp folder
 
-GCloud Python Library
-SheetSu Account (to access Google Sheets)
+Feel free to use...
