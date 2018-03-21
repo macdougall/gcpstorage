@@ -1,11 +1,14 @@
 # GCP and Google Sheet (via SheetSu) example.
 
-This code will pull data from a Google Sheet, specically from a URL.
-This data can be an image or PDF, HTML.
+This code will pull data from a Google Sheet using the Sheetsu API.
+It will look for specifically a URL to PDF or HTML.
 
-It will retieve that data locally, then persist it to Google Cloud Storage.
+Images are pulled from a URL (you have to set that).
 
+Once saved locally, it will persist it to Google Cloud Storage.
 It's meant to be used as a migration or import script that's run periodically.
+
+Just a simple example of the GCP Storage usage and Google Sheets API via Sheetsu.
 
 Requirements:
 * GCP Account with a Service Account credentials
@@ -13,4 +16,4 @@ Requirements:
 * SheetSu Account (to access Google Sheets)
 * Temp folder
 
-Feel free to use...
+Feel free to use as you wish.

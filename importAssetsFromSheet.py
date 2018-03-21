@@ -29,6 +29,7 @@ import sys
 import glob
 from bs4 import BeautifulSoup
 
+LOGOS_URL = 'URL to images'
 LOCAL_TEMP_PATH = './temp/'
 LOCAL_LOGFILE_PATH = LOCAL_TEMP_PATH + "/importAssets.log"
 SHEET_START_POINT = 0   # start at 1 to start from the begining.
@@ -227,7 +228,7 @@ def importAssetsFromSheet (SaveImages=True, SaveDocuments=True, UseLocalCache=Tr
         image_filename = row['Logo']
         whitepaper_url = row['Documentation']
         # check to see if that's a valid filename or not
-        url = TOKEN_LOGOS_URL + image_filename
+        url = LOGOS_URL + image_filename
         assetData = {
             "logo": image_filename, 
             "external_id": external_id, 
