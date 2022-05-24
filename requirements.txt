@@ -15,7 +15,7 @@ Pillow==6.2.0
 protobuf==3.5.1
 pyasn1==0.4.2
 pyasn1-modules==0.2.1
-PyJWT==1.5.3
+PyJWT==2.4.0
 pytz==2017.3
 requests==2.18.4
 rsa==3.4.2
